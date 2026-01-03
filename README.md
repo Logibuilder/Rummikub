@@ -24,6 +24,8 @@ Une implémentation complète et fonctionnelle du célèbre jeu de société **R
 * ✅ **Interface CLI** : Affichage textuel de l'état du jeu, de la table et des mains.
 * ✅ **Multi-ensembles (Multisets)** : Implémentation "from scratch" pour la gestion des tuiles.
 
+  ![rummicub.png](rummicub.png)
+
 ## 🎮 Règles Implémentées
 
 Le programme respecte les règles standards du Rummikub :
@@ -59,3 +61,13 @@ type 'a mset = 'a melt list
 type combinaison = 
   | Suite of tuile list 
   | Groupe of tuile list
+
+
+## 👤 Auteur
+
+**Votre Nom**
+* GitHub : [@votre-pseudo](https://github.com/Logibuilder)
+* Portfolio : [https://logibuilder.github.io/assane.kane/]
+
+---
+*Projet réalisé dans un but éducatif pour démontrer la maîtrise d'OCaml et de la programmation fonctionnelle.*
