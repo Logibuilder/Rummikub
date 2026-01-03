@@ -61,8 +61,7 @@ type 'a mset = 'a melt list
 type combinaison = 
   | Suite of tuile list 
   | Groupe of tuile list
----
-
+```
 
 ## 👤 Auteur
 
