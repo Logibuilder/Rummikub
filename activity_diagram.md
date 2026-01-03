@@ -1,4 +1,4 @@
-graph TD
+```mermaid
     A[Début] --> B[Initialiser partie]
     B --> C{Mettre 30+ points?}
     C -->|Non| D[Piocher]
@@ -9,4 +9,4 @@ graph TD
     G -->|Non| I{Pioche vide?}
     I -->|Oui| J[Fin - Calcul points]
     I -->|Non| F
-    F --> C
+    F --> C ```
